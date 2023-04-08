@@ -1,0 +1,9 @@
+@startuml iconfinder
+:User: --> (ExtractIcon)
+@enduml
+
+@startuml class_diagram
+class Finder{
+    +findIcon(executable: String): String
+}
+@enduml

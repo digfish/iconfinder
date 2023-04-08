@@ -1,0 +1,4 @@
+src/iconfinder/__pycache__/*
+.idea/*
+.pytest_cache/*
+*/__pycache__/
