@@ -15,6 +15,9 @@ class Finder:
         self.icon_filepath = self.find()
 
     def find(self):
+        '''Given a path for an executable, return the path to the icon file
+        returns None if no icon is found
+        '''
         print("Finding icon for: " + self.executable + "")
         if sys.platform == "win32":
             return self.executable if os.path.exists(self.executable) else None

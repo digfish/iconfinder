@@ -2,3 +2,8 @@ src/iconfinder/__pycache__/*
 .idea/*
 .pytest_cache/*
 */__pycache__/
+*.egg-info/*
+dist/*
+build/*
+*.egg
+pypirc.txt
